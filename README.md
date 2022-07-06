@@ -4,4 +4,4 @@ __Homepage for RuffLIB, a family of libraries for building rough and sketchy Jav
 
 ▶&nbsp; __Version:__ 0.0.1  
 ▶&nbsp; __Repo:__ <https://github.com/richplastow/rufflib>  
-▶&nbsp; __Homepage:__ <@TODO>  
+▶&nbsp; __Homepage:__ <https://richplastow.com/rufflib>  
