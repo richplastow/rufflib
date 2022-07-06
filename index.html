@@ -14,11 +14,15 @@
     <meta name="theme-color" content="#000000">
     <title>RuffLIB</title>
     <style>
-        body,a{margin:0;color:#eee;font:18px/2 Arial;text-align:center}
+        body{margin:0;color:#eee;font:12px/2 Arial;text-align:center}
+        @media screen and (min-width:450px){body{font-size:18px}}
         body{background:#000}
         h2{position:relative;margin:0;white-space:nowrap}
         a{color:#27c0e7;text-decoration:none;transition:color 0.3s}
         a:hover{color:#0ff}
+        .btn{display:block;margin:24px auto;width:80vw;background:#fff}
+        .btn{border-right:8px solid #f00;border-left:8px solid #0ff}
+        img{width:256px;height:256px}
     </style>
 </head>
 <body>
@@ -28,12 +32,18 @@
         A family of libraries for building
         <br>
         rough and sketchy JavaScript apps.
+        <br>
+        <br>
+        <a class="btn" href="/rufflib-expect">RuffLIB Expect</a>
+        <a class="btn" href="/rufflib-formulate">RuffLIB Formulate</a>
+        <a class="btn" href="/rufflib-validate">RuffLIB Validate</a>
     </h3>
+
     <br>
-    <nav>
+    <aside>
         <b>Version:</b> 0.0.1<br>
         <b>Repo:</b> <a href="https://github.com/richplastow/rufflib">https://github.com/richplastow/rufflib</a><br>
         <b>Homepage:</b> <a href="https://richplastow.com/rufflib">https://richplastow.com/rufflib</a><br>
-    </nav>
+    </aside>
 </body>
 </html>
